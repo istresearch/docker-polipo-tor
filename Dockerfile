@@ -20,5 +20,5 @@ ADD polipo.conf /etc/polipo/config
 ADD supervisor_tor.conf /etc/supervisor/conf.d/tor.conf
 ADD torrc /etc/tor/torrc
 
-EXPOSE 8118
+EXPOSE 8123
 CMD ["/usr/bin/supervisord", "-n"]
